@@ -1,6 +1,6 @@
 # 1-click deployment of ChatGPT Retrieval Plugin to Render with QDrant Cloud as Vector Database 
 
-[<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />](https://render.com/deploy?repo=https://github.com/oleg-schmidt/chatgpt-retrieval-plugin/main)
+[<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />](https://render.com/deploy?repo=https://github.com/oleg-schmidt/chatgpt-retrieval-plugin/tree/main)
 
 
 # ChatGPT Retrieval Plugin
