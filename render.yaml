@@ -3,7 +3,7 @@ services:
   - type: web
     name: retrieval-plugin-server 
     region: frankfurt
-    plan: starter
+    plan: free
     env: docker
     dockerfilePath: ./Dockerfile
     envVars: 
