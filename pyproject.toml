@@ -33,6 +33,9 @@ loguru = "^0.7.0"
 start = "server.main:start"
 dev = "local_server.main:start"
 
+[tool.poetry.extras]
+postgresql = ["psycopg2cffi"]
+
 [tool.poetry.group.dev.dependencies]
 httpx = "^0.23.3"
 pytest = "^7.2.1"
