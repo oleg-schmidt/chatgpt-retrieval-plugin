@@ -1,0 +1,20 @@
+services:
+  # FastAPI Server
+  - type: web
+    name: retrieval-plugin-server 
+    region: frankfurt
+    plan: starter
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars: 
+      - key: DATASTORE
+        value: qdrant
+      - key: BEARER_TOKEN
+        generateValue: true 
+      # will be promtped to add this in the UI on deployment
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
